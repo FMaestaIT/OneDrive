@@ -1,4 +1,5 @@
 # OneDrive
+You should be use WSL or Linux native on you pc, in Windows environment the configuration it's too hard.
 
 A parser for OneDrive .odl files.
 
@@ -7,7 +8,10 @@ MIT
 
 ## Requirements & Installation
 Python 3.7+ and the following modules
-- construct
+- construct     |  pip install construct
+- pycripto      |  pip install pycrypto
+- Cryptpo       |  pip install Crypto
+- pycriptodome  |  pip install pycryptodome
 
 ## Usage
 OneDrive logs are stored as binary files with extensions .odl,
@@ -60,6 +64,9 @@ with the key stored in the file general.keystore
 By default, irrelevant functions and/or those with empty parameters 
 are not displayed. This can be toggled with the -d option.
 ```
+### Example - WSL Env
+python3 odl.py -o "/mnt/c/Users/FedericoMaestà/Downloads/OneDrive-main/odl_log.csv" "/mnt/c/Users/FedericoMaestà/AppData/Local/Microsoft/OneDrive/logs/Business1"
+
 
 ### Example
 ```

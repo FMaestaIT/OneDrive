@@ -65,8 +65,9 @@ By default, irrelevant functions and/or those with empty parameters
 are not displayed. This can be toggled with the -d option.
 ```
 ### Example - WSL Env
+```
 python3 odl.py -o "/mnt/c/Users/FedericoMaestà/Downloads/OneDrive-main/odl_log.csv" "/mnt/c/Users/FedericoMaestà/AppData/Local/Microsoft/OneDrive/logs/Business1"
-
+```
 
 ### Example
 ```
